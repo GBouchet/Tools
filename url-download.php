@@ -73,7 +73,7 @@ $file = $_POST['file'];
 cURLdownload($url, $folder, $file);
 }
 ?>
-<br />
+<br /><br />
 <form method="post">
 <label for="url">URL to Download</label><input name="url" size="50" /><br />
 <label for="folder">File name to Save</label><input name="folder" size="50" value="<? echo getcwd(); ?>/" /><br />
